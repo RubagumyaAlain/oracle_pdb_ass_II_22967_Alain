@@ -252,6 +252,14 @@ I confirm that this assignment was completed independently in my own Oracle envi
 All commands were executed personally, and all screenshots represent my own work.
 
 ---
+# Final Checklist (Apply Before Submission)
+- [x] Correct PDB names used
+- [x] User created inside the PDB
+- [x] Temporary PDB created and deleted
+- [x] OEM dashboard screenshot included
+- [x] GitHub repository is PUBLIC
+- [x] README is clear and professional
+- [x] Deadline respected
 
 
 
