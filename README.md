@@ -48,7 +48,7 @@ Checked existing PDBs:
 ```
 SHOW PDBS;
 ```
-![PDB Before Creation](screen_shot_II/01_show_pdbs_before.png)
+![PDB Before Creation](screen_shots_II/01_show_pdbs_before.png)
 
 
 * Existing PDB list before creation
@@ -67,7 +67,7 @@ FILE_NAME_CONVERT = ('pdbseed','AL_PDB_22967');
 
 **Explanation:**
 This command creates a new pluggable database by copying the template (PDB$SEED) and assigning a new name.
-![PDB Before Creation](screenshots/02_create_main_pdb.png)
+![PDB Before Creation](screen_shots_II/02_create_main_pdb.png)
 
 * PDB creation command
 * “Pluggable database created” message
@@ -91,7 +91,7 @@ SHOW PDBS;
 **Explanation:**
 The PDB must be in READ WRITE mode to allow user creation and access.
 
-![PDB Before Creation](screenshots/03_open_main_pdb.png)
+![PDB Before Creation](screen_shots_II/03_open_main_pdb.png)
 
 * SHOW PDBS displaying AL_PDB_22967 in READ WRITE
 
@@ -127,7 +127,7 @@ Verified user existence:
 SELECT username FROM dba_users;
 ```
 
-![PDB Before Creation](screenshots/04_user_created.png)
+![PDB Before Creation](screen_shots_II/04_user_created.png)
 
 * User creation and grants
 * Query showing ALAIN_PLSQLAUCA_22967
@@ -146,7 +146,7 @@ ADMIN USER tempadmin IDENTIFIED BY <password>
 FILE_NAME_CONVERT = ('pdbseed','AL_TO_DELETE_PDB_22967');
 ```
 
-![PDB Before Creation](screenshots/04_user_created.png)
+![PDB Before Creation](screen_shots_II/04_user_created.png)
 
 * Temporary PDB creation confirmation
 
@@ -188,7 +188,7 @@ SHOW PDBS;
 **Explanation:**
 The PDB was removed completely along with its datafiles to ensure full deletion.
 
-![PDB Before Creation](screenshots/06_temp_pdb_deleted.png)
+![PDB Before Creation](screen_shots_II/06_temp_pdb_deleted.png)
 
 
 * Drop command success
@@ -227,7 +227,7 @@ Verified:
 * Main PDB (AL_PDB_22967) visible
 * Created user visible under Security → Users
 
-![PDB Before Creation](screenshots/08_oem_dashboard.png)
+![PDB Before Creation](screen_shots_II/08_oem_dashboard.png)
 
 
 * OEM dashboard showing PDB
@@ -251,4 +251,5 @@ I confirm that this assignment was completed independently in my own Oracle envi
 All commands were executed personally, and all screenshots represent my own work.
 
 ---
+
 
