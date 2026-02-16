@@ -62,7 +62,7 @@ Created the required PDB using the correct naming format:
 
 ```
 CREATE PLUGGABLE DATABASE AL_PDB_22967
-ADMIN USER pdbadmin IDENTIFIED BY <password>
+ADMIN USER alain_plsqlauca_22967 IDENTIFIED BY pw
 FILE_NAME_CONVERT = ('pdbseed','AL_PDB_22967');
 ```
 
@@ -109,7 +109,7 @@ ALTER SESSION SET CONTAINER = AL_PDB_22967;
 Created the required user:
 
 ```
-CREATE USER ALAIN_PLSQLAUCA_22967 IDENTIFIED BY root;
+CREATE USER ALAIN_PLSQLAUCA_22967 IDENTIFIED BY pw;
 ```
 
 Granted privileges:
@@ -252,6 +252,7 @@ I confirm that this assignment was completed independently in my own Oracle envi
 All commands were executed personally, and all screenshots represent my own work.
 
 ---
+
 
 
 
