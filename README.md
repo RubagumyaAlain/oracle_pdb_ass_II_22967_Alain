@@ -48,7 +48,7 @@ Checked existing PDBs:
 ```
 SHOW PDBS;
 ```
-![PDB Before Creation](screenshots/01_show_pdbs_before.png)
+![PDB Before Creation](screen_shot_II/01_show_pdbs_before.png)
 
 
 * Existing PDB list before creation
@@ -251,3 +251,4 @@ I confirm that this assignment was completed independently in my own Oracle envi
 All commands were executed personally, and all screenshots represent my own work.
 
 ---
+
